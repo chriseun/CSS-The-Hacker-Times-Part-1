@@ -172,3 +172,11 @@ h6 {
   font-size: 1.1rem;
   color: rgb(39, 39, 39);
 }
+
+
+.header-nav {
+  position: sticky;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+}
