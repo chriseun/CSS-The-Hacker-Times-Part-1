@@ -1,1 +1,174 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #eee;
+  font-family: Source Sans Pro;
+  margin: 5em 15em;
+  box-shadow: 1px 2px 4px #c2c2c4;
+  border-radius: 15px;
+
+
+}
+
+.newspaper-container {
+  background-color: #fff;
+  padding: 2em;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+
+
+}
+
+
+h1 {
+  font-family: Abril Fatface;
+  text-align: center;
+  font-size: 3.5em;
+  margin: 25px;
+
+}
+
+ul {
+  display: flex;
+  border: #ddd 1px solid;
+  border-left: none;
+  border-right: none;
+  padding-left: 2em;
+  padding-right: 2em;
+  flex-wrap: wrap;
+
+
+}
+
+li {
+  justify-content: space-around;
+  list-style: none;
+  margin: auto;
+  padding: 1em;
+
+
+}
+
+li a {
+  color: #777;
+  text-decoration: none;
+
+}
+
+li a:hover {
+  color: #DD3232;
+  transition: ease-in-out 0.4s;
+}
+
+h2 {
+  font-family: Roboto Slab;
+  margin-bottom: 0.75em;
+}
+
+h4 {
+  font-size: 1.5em;
+  font-family: Roboto Slab;
+}
+
+h5 {
+  font-family: Abril Fatface;
+  color: #DD3232;
+  margin-top: 0;
+  font-size: 1.2em;
+}
+
+main {
+  border-bottom: #ddd 1px solid;
+  margin: 2rem 1rem;
+  padding: 0.25rem 0;
+}
+
+main>img {
+  width: 100%;
+  display: block;
+}
+
+.more-articles {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+section {
+  width: 42%;
+  margin: 0;
+
+}
+
+section>img {
+  width: 100%;
+}
+
+p {
+  font-size: 1.2rem;
+  padding: 0 0.7em;
+  font-family: Source Sans Pro;
+}
+
+
+footer {
+  background-color: #6b6b6d;
+  height: 40%;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+
+
+}
+
+.footer-box {
+  display: grid;
+  grid-template-columns: 65% auto;
+  padding: 3em;
+}
+
+.footer-logo {
+  margin: auto;
+  margin-left: 5rem;
+}
+
+.footer-logo h2 {
+  color: #fff;
+  font-size: 3rem;
+  font-family: Abril Fatface;
+}
+
+.footer-nav {
+  display: flex;
+
+}
+
+.footer-nav ul {
+  border: none;
+
+  display: flex;
+  flex-direction: column;
+
+}
+
+.footer-nav ul:first-child {
+  border-left: #fff 1px solid;
+}
+
+.footer-nav li a {
+  color: #fff;
+
+}
+
+.footer-nav li a:hover {
+  color: #DD3232;
+  transition: ease-in-out 0.4s;
+}
+
+h6 {
+  font-size: 1.1rem;
+  color: rgb(39, 39, 39);
+}
